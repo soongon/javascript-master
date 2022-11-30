@@ -30,10 +30,19 @@ var filtered = lessons.filter(function (lesson) {
 });
 
 // 문. 각 레슨에 array 와 관련된 레슨을 필터링하세요 (tags 에 array 가 포함된 레슨을 필터링)
+var filtered2 = lessons.filter(function (lesson) {
+  return lesson.tags.indexOf('array') > -1;
+});
+console.log(filtered2);
 // map 에관한 문제) 각 레슨에 조회수를 모두 100회씩 일괄적으로 증가 시키세요..
+var filtered3 = lessons.map(function (lesson) {
+  lesson.views = lesson.views + 100;
+  return lesson;
+});
+console.log(filtered3);
 
-console.log(lessons);
-console.log(filtered);
+// console.log(lessons);
+// console.log(filtered);
 
 
 
