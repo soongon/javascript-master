@@ -1,0 +1,11 @@
+h1 {
+  color: red;
+}
+
+#greet {
+  color: aqua;
+}
+
+div > p {
+  color: blueviolet;
+}
