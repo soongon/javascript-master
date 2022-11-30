@@ -29,6 +29,9 @@ var filtered = lessons.filter(function (lesson) {
   return lesson.views >= 1000
 });
 
+// 문. 각 레슨에 array 와 관련된 레슨을 필터링하세요 (tags 에 array 가 포함된 레슨을 필터링)
+// map 에관한 문제) 각 레슨에 조회수를 모두 100회씩 일괄적으로 증가 시키세요..
+
 console.log(lessons);
 console.log(filtered);
 
